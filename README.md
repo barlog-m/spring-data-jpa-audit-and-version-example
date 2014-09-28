@@ -1,7 +1,7 @@
 Spring Data JPA Audit and Version Magic Example
 ===============================================
 
-[Article (russian)]()
+[Article (russian)](http://barlog.li/java/2014/09/28/spring-data-jpa-audit-and-version-magic-example.html)
 
 ### Run ###
 ```
