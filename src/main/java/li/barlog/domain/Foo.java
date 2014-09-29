@@ -4,7 +4,6 @@ import org.springframework.data.jpa.domain.AbstractAuditable;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import javax.transaction.Transactional;
 
 @Entity
 @EntityListeners({AuditingEntityListener.class})
