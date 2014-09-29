@@ -7,7 +7,6 @@ import javax.persistence.*;
 import javax.transaction.Transactional;
 
 @Entity
-@Transactional
 @EntityListeners({AuditingEntityListener.class})
 public class Foo extends AbstractAuditable<User, Long> {
 	@Basic
