@@ -12,8 +12,8 @@
 	</parent>
 
 	<groupId>li.barlog.examples</groupId>
-	<artifactId>Spring-Data-JPA-Audit-and-Version-Example</artifactId>
-	<name>Spring Data JPA Audit</name>
+	<artifactId>spring-data-jpa-audit-and-version-example</artifactId>
+	<name>spring-data-jpa-audit-and-version-example</name>
 	<version>0.2-SNAPSHOT</version>
 
 	<properties>
