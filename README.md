@@ -5,5 +5,10 @@ Spring Data JPA Audit and Version Magic Example
 
 ### Run ###
 ```
-mvn clean compile exec:java
+mvn spring-boot:run
+```
+
+### Create executable jar with dependencies ###
+```
+mvn package spring-boot:repackage
 ```
