@@ -9,8 +9,12 @@ import org.springframework.stereotype.Service;
 public class CurrentUserService {
 	private Long currentUserID = 1L;
 
+	private final UserRepository userRepository;
+
 	@Autowired
-	private UserRepository userRepository;
+	public CurrentUserService(final UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
 
 	public User getCurrentUser() {
 		return userRepository.findOne(currentUserID);
